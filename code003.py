@@ -25,7 +25,8 @@ for produto in produtos:
     faturamento = produto['preco'] * produto['quantidade']
     custo_total = produto['custo'] * produto['quantidade']
     lucro = faturamento - custo_total
+    
     print(f'produto: {produto["produto"]}')
     print(f'seu faturamento: {faturamento:.2f}')
     print(f'seu custo total: {custo_total:.2f}')
-    print(f'seu lucro: {lucro:.2f}')
+    print(f'seu lucro: {lucro:.2f}')   
